@@ -12,61 +12,34 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestMain {
 
    @Test
-   public void testLucky7Diff()
+   public void testCountFactors9()
    {
-     assertTrue(Main.lucky7(2, 9));
+     assertEquals(3, Main.countFactors(9));
    }
+
     @Test
-    public void testLucky7Sum()
+    public void testCountFactors24()
     {
-        assertTrue(Main.lucky7(2, 5));
+        assertEquals( 8, Main.countFactors(24));
     }
+
     @Test
-    public void testLucky7()
+    public void testCountFactors5()
     {
-        assertTrue(Main.lucky7(2, 7));
+        assertEquals( 2, Main.countFactors(5));
     }
+
     @Test
-    public void testLucky7False()
+    public void isPrime9()
     {
-        assertFalse(Main.lucky7(2, 8));
+        assertTrue(Main.isPrime(9));
     }
+
     @Test
-    public void mult3()
+    public void isPrime5()
     {
-        assertTrue(Main.mult35(309));
+        assertFalse(Main.isPrime(5));
     }
-    @Test
-    public void mult5()
-    {
-        assertTrue(Main.mult35(80));
-    }
-    @Test
-    public void testMmult35()
-    {
-        assertFalse(Main.mult35(15));
-    }
-    @Test
-    public void testMult35False()
-    {
-        assertFalse(Main.mult35(19));
-    }
-    @Test
-    public void testBlackjackHighest()
-    {
-        int test1 = Main.blackjack(5, 21);
-        assertEquals(21, test1, "Expected: 21. Received: " + test1);
-    }
-    @Test
-    public void testBlackjackHighestNotOver()
-    {
-        int test1 = Main.blackjack(19, 22);
-        assertEquals(19, test1, "Expected: 19. Received: " + test1 + "22 is over 21 so 19 is the highest.");
-    }
-    @Test
-    public void testBlackjackBothOver()
-    {
-        int test1 = Main.blackjack(22, 24);
-        assertEquals(0, test1, "Expected: 0. Received: " + test1);
-    }
+
+
 }

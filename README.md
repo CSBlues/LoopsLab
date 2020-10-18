@@ -1,12 +1,12 @@
-# Boolean Lab
+# Loops Lab
 Complete the tasks in the comments in Main.java.
 
-- Write the method `lucky7` which accepts two integers and returns
-if either one is 7 or if their sum or difference is 7.
+- Write the method `countFactors` which accepts an integer and returns
+the count of the number of factors of the input parameter.
    
-- Write the method `mult35` which accepts an non-negative integer and returns if
-it is a multiple of 3 or 5 but not both.
+- Write the method `isPrime` which accepts an integer and returns if
+it is a prime number. `isPrime` should call `countFactors`.
 
-- Write the method `blackjack` which takes two positive integers representing
-two hands in blackjack. The method returns whichever hand is closer to 21 without
-going over. If they both go over, return 0.
+- Write the method `printTwoDigits` which takes an int parameter (n) and 
+prints n random numbers between 10 and 19. `printTwoDigits` should also print
+whether the value 13 was printed.

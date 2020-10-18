@@ -9,17 +9,13 @@ class Main {
 
     }
 
-    // Write the method lucky7 which accepts two integers and returns
-    // if either one is 7 or if their sum or difference is 7.
+    // TODO: create the countFactors method that should return the int value of the numbers of factors of the int parameter.
 
 
-    // Write the method mult35 which accepts an non-negative integer and returns if
-    // it is a multiple of 3 or 5 but not both.
+    // TODO: create the isPrime method that returns a boolean of whether the int parameter is a prime number or not. isPrime should call countFactors.
 
 
-  /* Write the method blackjack which takes two positive integers representing
-     two hands in blackjack. The method returns whichever hand is closer to 21 without
-     going over. If they both go over, return 0. */
+    // TODO: create the printTwoDigits method that prints out a random integer between 10 and 19 as many times as the int parameter implies. This function should also print out whether the number 13 was printed.
 
 
 
